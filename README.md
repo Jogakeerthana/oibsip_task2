@@ -33,7 +33,7 @@ public class GuessingGame {
                           + " guesses!  My number was " + computersNumber);
                   break;  
                }
-               if (guessCount == 6) {
+               if (guessCount == 10) {
                   System.out.println("You didn't get the number in 6 guesses.");
                   System.out.println("You lose.  My number was " + computersNumber);
                   break;  
